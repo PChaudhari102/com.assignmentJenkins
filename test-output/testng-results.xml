@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-26T00:29:43 IST" name="Suite" finished-at="2023-06-26T00:30:19 IST" duration-ms="36212">
+    <groups>
+    </groups>
+    <test started-at="2023-06-26T00:29:43 IST" name="Test" finished-at="2023-06-26T00:30:19 IST" duration-ms="36212">
+      <class name="assignmentJenkins.HW_Wikipedia">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:assignmentJenkins.HW_Wikipedia@313ac989]" started-at="2023-06-26T00:29:43 IST" name="beforeClass" finished-at="2023-06-26T00:29:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:assignmentJenkins.HW_Wikipedia@313ac989]" started-at="2023-06-26T00:29:43 IST" name="beforeMethod" finished-at="2023-06-26T00:29:46 IST" duration-ms="2411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="wikipedia()[pri:0, instance:assignmentJenkins.HW_Wikipedia@313ac989]" started-at="2023-06-26T00:29:46 IST" name="wikipedia" finished-at="2023-06-26T00:29:52 IST" duration-ms="6291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipedia -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:assignmentJenkins.HW_Wikipedia@313ac989]" started-at="2023-06-26T00:29:52 IST" name="afterMethod" finished-at="2023-06-26T00:29:52 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:assignmentJenkins.HW_Wikipedia@313ac989]" started-at="2023-06-26T00:29:52 IST" name="afterClass" finished-at="2023-06-26T00:29:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- assignmentJenkins.HW_Wikipedia -->
+      <class name="assignmentJenkins.Hw_OrangeHRMLogin">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:assignmentJenkins.Hw_OrangeHRMLogin@368f2016]" started-at="2023-06-26T00:29:43 IST" name="beforeSuite" finished-at="2023-06-26T00:29:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:assignmentJenkins.Hw_OrangeHRMLogin@368f2016]" started-at="2023-06-26T00:29:43 IST" name="beforeTest" finished-at="2023-06-26T00:29:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:assignmentJenkins.Hw_OrangeHRMLogin@368f2016]" started-at="2023-06-26T00:29:56 IST" name="beforeMethod" finished-at="2023-06-26T00:30:02 IST" duration-ms="5820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:assignmentJenkins.Hw_OrangeHRMLogin@368f2016]" started-at="2023-06-26T00:29:56 IST" name="beforeClass" finished-at="2023-06-26T00:29:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="OrangeHRMLoginTestNGTest()[pri:0, instance:assignmentJenkins.Hw_OrangeHRMLogin@368f2016]" started-at="2023-06-26T00:30:02 IST" name="OrangeHRMLoginTestNGTest" finished-at="2023-06-26T00:30:13 IST" duration-ms="11614" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for url to be "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index". Current url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Princy\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53328}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53328/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4eaef5bb30692350ea1033868a18500d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index". Current url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Princy\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53328}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53328/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4eaef5bb30692350ea1033868a18500d
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at assignmentJenkins.Hw_OrangeHRMLogin.OrangeHRMLoginTestNGTest(Hw_OrangeHRMLogin.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHRMLoginTestNGTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:assignmentJenkins.Hw_OrangeHRMLogin@368f2016]" started-at="2023-06-26T00:30:13 IST" name="afterMethod" finished-at="2023-06-26T00:30:14 IST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:assignmentJenkins.Hw_OrangeHRMLogin@368f2016]" started-at="2023-06-26T00:30:14 IST" name="afterClass" finished-at="2023-06-26T00:30:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:assignmentJenkins.Hw_OrangeHRMLogin@368f2016]" started-at="2023-06-26T00:30:19 IST" name="afterTest" finished-at="2023-06-26T00:30:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:assignmentJenkins.Hw_OrangeHRMLogin@368f2016]" started-at="2023-06-26T00:30:20 IST" name="afterSuite" finished-at="2023-06-26T00:30:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- assignmentJenkins.Hw_OrangeHRMLogin -->
+      <class name="assignmentJenkins.Hw_CustomizedTours">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:assignmentJenkins.Hw_CustomizedTours@4d5d943d]" started-at="2023-06-26T00:29:43 IST" name="beforeSuite" finished-at="2023-06-26T00:29:43 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:assignmentJenkins.Hw_CustomizedTours@4d5d943d]" started-at="2023-06-26T00:29:43 IST" name="beforeTest" finished-at="2023-06-26T00:29:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:assignmentJenkins.Hw_CustomizedTours@4d5d943d]" started-at="2023-06-26T00:29:52 IST" name="beforeClass" finished-at="2023-06-26T00:29:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:assignmentJenkins.Hw_CustomizedTours@4d5d943d]" started-at="2023-06-26T00:29:52 IST" name="beforeMethod" finished-at="2023-06-26T00:29:53 IST" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="webElementMethods()[pri:0, instance:assignmentJenkins.Hw_CustomizedTours@4d5d943d]" started-at="2023-06-26T00:29:53 IST" name="webElementMethods" finished-at="2023-06-26T00:29:56 IST" duration-ms="2259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webElementMethods -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:assignmentJenkins.Hw_CustomizedTours@4d5d943d]" started-at="2023-06-26T00:29:56 IST" name="afterMethod" finished-at="2023-06-26T00:29:56 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:assignmentJenkins.Hw_CustomizedTours@4d5d943d]" started-at="2023-06-26T00:29:56 IST" name="afterClass" finished-at="2023-06-26T00:29:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:assignmentJenkins.Hw_CustomizedTours@4d5d943d]" started-at="2023-06-26T00:30:19 IST" name="afterTest" finished-at="2023-06-26T00:30:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:assignmentJenkins.Hw_CustomizedTours@4d5d943d]" started-at="2023-06-26T00:30:20 IST" name="afterSuite" finished-at="2023-06-26T00:30:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- assignmentJenkins.Hw_CustomizedTours -->
+      <class name="assignmentJenkins.Hw_Gmail">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:assignmentJenkins.Hw_Gmail@4c583ecf]" started-at="2023-06-26T00:30:14 IST" name="beforeMethod" finished-at="2023-06-26T00:30:16 IST" duration-ms="2517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="gmail()[pri:0, instance:assignmentJenkins.Hw_Gmail@4c583ecf]" started-at="2023-06-26T00:30:16 IST" name="gmail" finished-at="2023-06-26T00:30:19 IST" duration-ms="2450" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://accounts.google.com/v3/signin/challenge/pwd?TL=ALbfvL1W8Q4jTZR5mD7rDdC70h5k7MwrU5qzFFlUBwz-GBiQPL-myCsloM2DbaIY&checkConnection=youtube%3A264%3A0&checkedDomains=youtube&cid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&dsh=S1006965977%3A1677152006597667&emr=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&ifkv=AWnogHewVfaX9v9nMH_TRR_zw1BCzW1gtBJHmrmu5JAXkjXDucBW9un1l3DRFwewRl7Bu23RqnaWkg&osid=1&pstMsg=1&service=mail] but found [https://accounts.google.com/v3/signin/identifier?dsh=S-1123392764%3A1677151326273956&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHfOpjY0duUO2ikPKR_jjNlyMrG3lSSN5BACMX8j2CR1ZgKNPH8t2I0-_cWK9PUxdMdWOTgtSg]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://accounts.google.com/v3/signin/challenge/pwd?TL=ALbfvL1W8Q4jTZR5mD7rDdC70h5k7MwrU5qzFFlUBwz-GBiQPL-myCsloM2DbaIY&checkConnection=youtube%3A264%3A0&checkedDomains=youtube&cid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&dsh=S1006965977%3A1677152006597667&emr=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&ifkv=AWnogHewVfaX9v9nMH_TRR_zw1BCzW1gtBJHmrmu5JAXkjXDucBW9un1l3DRFwewRl7Bu23RqnaWkg&osid=1&pstMsg=1&service=mail] but found [https://accounts.google.com/v3/signin/identifier?dsh=S-1123392764%3A1677151326273956&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHfOpjY0duUO2ikPKR_jjNlyMrG3lSSN5BACMX8j2CR1ZgKNPH8t2I0-_cWK9PUxdMdWOTgtSg]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at assignmentJenkins.Hw_Gmail.gmail(Hw_Gmail.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:assignmentJenkins.Hw_Gmail@4c583ecf]" started-at="2023-06-26T00:30:19 IST" name="afterMethod" finished-at="2023-06-26T00:30:19 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- assignmentJenkins.Hw_Gmail -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

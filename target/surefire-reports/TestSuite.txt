@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.431 sec <<< FAILURE! - in TestSuite
+gmail(assignmentJenkins.Hw_Gmail)  Time elapsed: 2.548 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://accounts.google.com/v3/signin/challenge/pwd?TL=ALbfvL1W8Q4jTZR5mD7rDdC70h5k7MwrU5qzFFlUBwz-GBiQPL-myCsloM2DbaIY&checkConnection=youtube%3A264%3A0&checkedDomains=youtube&cid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&dsh=S1006965977%3A1677152006597667&emr=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&ifkv=AWnogHewVfaX9v9nMH_TRR_zw1BCzW1gtBJHmrmu5JAXkjXDucBW9un1l3DRFwewRl7Bu23RqnaWkg&osid=1&pstMsg=1&service=mail] but found [https://accounts.google.com/v3/signin/identifier?dsh=S-1123392764%3A1677151326273956&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHfOpjY0duUO2ikPKR_jjNlyMrG3lSSN5BACMX8j2CR1ZgKNPH8t2I0-_cWK9PUxdMdWOTgtSg]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at assignmentJenkins.Hw_Gmail.gmail(Hw_Gmail.java:48)
+
